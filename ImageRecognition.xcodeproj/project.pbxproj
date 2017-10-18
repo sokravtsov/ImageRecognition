@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82165EF41F980D6700424568 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 82165EF31F980D6700424568 /* Resnet50.mlmodel */; };
 		82E5FE3A1F94BA9500AF0952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E5FE391F94BA9500AF0952 /* AppDelegate.swift */; };
 		82E5FE3C1F94BA9500AF0952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E5FE3B1F94BA9500AF0952 /* ViewController.swift */; };
 		82E5FE411F94BA9500AF0952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E5FE401F94BA9500AF0952 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82165EF31F980D6700424568 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		82E5FE361F94BA9500AF0952 /* ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E5FE391F94BA9500AF0952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82E5FE3B1F94BA9500AF0952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 		82E5FE2D1F94BA9500AF0952 = {
 			isa = PBXGroup;
 			children = (
+				82165EF31F980D6700424568 /* Resnet50.mlmodel */,
 				82E5FE381F94BA9500AF0952 /* ImageRecognition */,
 				82E5FE371F94BA9500AF0952 /* Products */,
 			);
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82165EF41F980D6700424568 /* Resnet50.mlmodel in Sources */,
 				82E5FE3C1F94BA9500AF0952 /* ViewController.swift in Sources */,
 				82E5FE3A1F94BA9500AF0952 /* AppDelegate.swift in Sources */,
 			);
