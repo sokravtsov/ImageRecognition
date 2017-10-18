@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		82E5FE3A1F94BA9500AF0952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E5FE391F94BA9500AF0952 /* AppDelegate.swift */; };
 		82E5FE3C1F94BA9500AF0952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E5FE3B1F94BA9500AF0952 /* ViewController.swift */; };
-		82E5FE3F1F94BA9500AF0952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E5FE3D1F94BA9500AF0952 /* Main.storyboard */; };
 		82E5FE411F94BA9500AF0952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E5FE401F94BA9500AF0952 /* Assets.xcassets */; };
 		82E5FE441F94BA9500AF0952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E5FE421F94BA9500AF0952 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		82E5FE361F94BA9500AF0952 /* ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E5FE391F94BA9500AF0952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82E5FE3B1F94BA9500AF0952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82E5FE3E1F94BA9500AF0952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82E5FE401F94BA9500AF0952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82E5FE431F94BA9500AF0952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82E5FE451F94BA9500AF0952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				82E5FE391F94BA9500AF0952 /* AppDelegate.swift */,
 				82E5FE3B1F94BA9500AF0952 /* ViewController.swift */,
-				82E5FE3D1F94BA9500AF0952 /* Main.storyboard */,
 				82E5FE401F94BA9500AF0952 /* Assets.xcassets */,
 				82E5FE421F94BA9500AF0952 /* LaunchScreen.storyboard */,
 				82E5FE451F94BA9500AF0952 /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				82E5FE441F94BA9500AF0952 /* LaunchScreen.storyboard in Resources */,
 				82E5FE411F94BA9500AF0952 /* Assets.xcassets in Resources */,
-				82E5FE3F1F94BA9500AF0952 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		82E5FE3D1F94BA9500AF0952 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82E5FE3E1F94BA9500AF0952 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82E5FE421F94BA9500AF0952 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QTU947L2N;
 				INFOPLIST_FILE = ImageRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SergeyKravtsov.ImageRecognition;
@@ -289,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QTU947L2N;
 				INFOPLIST_FILE = ImageRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SergeyKravtsov.ImageRecognition;
